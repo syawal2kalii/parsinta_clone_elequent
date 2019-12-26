@@ -32,7 +32,7 @@ Route::get('/elequentall','Belequent@all')->name('elequent.all');
 Route::get('/elequentfind','Belequent@find')->name('elequent.find'); //route wildcard
 Route::get('/elequentfindb/{id}','Belequent@findb')->name('elequent.findb'); //route wildcard
 Route::get('/elequentdestroy','Belequent@destroy')->name('elequent.destroy'); //route wildcard
-Route::get('/elequentedit','Belequent@edit')->name('elequent.edit'); //route wildcard
+
 
 
 //baru lagi
